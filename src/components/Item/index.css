@@ -1,9 +1,9 @@
-/*item*/
+/* item */
 li {
-    list-style: none;
     height: 36px;
-    line-height: 36px;
     padding: 0 5px;
+    line-height: 36px;
+    list-style: none;
     border-bottom: 1px solid #ddd;
 }
 
@@ -13,19 +13,19 @@ li label {
 }
 
 li label li input {
-    vertical-align: middle;
-    margin-right: 6px;
     position: relative;
     top: -1px;
+    margin-right: 6px;
+    vertical-align: middle;
 }
 
 li button {
-    float: right;
     display: none;
+    float: right;
     margin-top: 3px;
 }
 
-li:before {
+li::before {
     content: initial;
 }
 
