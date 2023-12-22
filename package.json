@@ -20,9 +20,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint src",
     "fix": "eslint src --fix",
-    "format": "prettier --write \"./**/*.{html,vue,jsx,js,json,md}\"",
-    "lint:eslint": "eslint src/**/*.jsx --cache --fix",
-    "lint:style": "stylelint src/**/*.{css,scss,jsx} --cache --fix"
+    "format": "prettier --write \"./**/*.{html,jsx,js,json,md}\"",
+    "lint:eslint": "eslint src/**/*.{jsx,js} --cache --fix",
+    "lint:style": "stylelint src/**/*.{css,scss,jsx,js} --cache --fix"
   },
   "eslintConfig": {
     "extends": [
